@@ -21,6 +21,13 @@ def user_details():
                 print data['watchers']
                 print 'git url'
                 print data['git_url']
+                print 'open issues'
+                print data['open_issues']
+                print 'permissions for user'
+                print 'push'
+                print data['permissions']['push']
+                print 'pull'
+                print data['permissions']['pull']
 
 if __name__ == "__main__":
 	user_details()
